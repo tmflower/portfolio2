@@ -719,7 +719,7 @@ section {
   color: #5CE1E6;
 }
 
-/* About Us Section
+/* About Section
 --------------------------------*/
 #about img {
   max-width: 100%;
@@ -779,9 +779,10 @@ section {
 }
 
 #projects .feature-block img {
-  height: 140px;
-  margin-bottom: 30px;
-  width: 220px;
+  max-width: 260px;
+  /* margin-top: 30px;
+  margin-bottom: 20px; */
+  margin: 30px 10px 20px 10px;
 }
 
 #projects .feature-block:hover {
